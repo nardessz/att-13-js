@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folha de Pagamento</title>
+    <link rel="stylesheet" href="../styles/style3.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Folha de Pagamento</h1>
+        <form id="formularioPagamento">
+            <label for="nomeFuncionario">Nome do Funcionário:</label>
+            <input type="text" id="nomeFuncionario" required><br><br>
+            <label for="salario">Salário:</label>
+            <input type="number" id="salario" required><br><br>
+            <button class="btCalcular" type="button" onclick="calcularDescontoSalario()">Calcular</button>
+        </form>
+    </div>
+    <script src="../script/script3.js"></script>
+</body>
+</html>

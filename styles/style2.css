@@ -1,0 +1,65 @@
+/* style2.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+#payrollForm {
+    margin-bottom: 20px;
+}
+
+#payrollForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#payrollForm input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#payrollForm .btCalc {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#payrollResult {
+    display: none;
+}
+
+#payrollResult h2 {
+    margin-bottom: 10px;
+}
+
+#payrollResult p {
+    margin-bottom: 5px;
+}
+
+.hidden {
+    display: none;
+}
